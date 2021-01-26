@@ -1,0 +1,56 @@
+body{
+  padding: 10px;
+}
+.App {
+  text-align: center;
+}
+
+#users {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#users td, #users th {
+  border: 1px solid #ffffff;
+  padding: 5px;
+}
+
+#users tr:nth-child(even){background-color: #f7f7f7;}
+
+#users tr:hover {background-color: #f3f1f1;}
+
+#users th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: white;
+}
+
+button{
+  padding: 10px;
+  background-color: #ddd;
+  border: 1px solid #cac8c8;
+  margin: 5px;
+  cursor: pointer;
+}
+input{
+  padding: 5px;
+  margin: 10px;
+  display: inline-block;
+  width:100%;
+}
+.pagination{
+  text-align: center;
+}
+.pagination button{
+  width: 40px;
+}
+.pull-right{
+  float: right;
+}
+.error{
+  color: red;
+  margin: 10px;
+}
